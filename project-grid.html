@@ -1,0 +1,823 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TransitFlow | Freight Solutions HTML Template</title>
+    <link rel="shortcut icon" href="img/faveicon.png" type="image/x-icon" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.10.5/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Italianno&family=Jost:ital,wght@0,100..900;1,100..900&family=Noto+Sans+Display:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Italianno&family=Jost:ital,wght@0,100..900;1,100..900&family=Kumbh+Sans:wght@100..900&family=Noto+Sans+Display:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="src/output.css" />
+    <link rel="stylesheet" href="src/style.css" />
+  </head>
+  <body>
+    <!-- top head start -->
+    <div class="container mx-auto xl:px-32 py-8 bg-hasan hidden 2xl:block">
+      <div class="grid grid-cols-12">
+        <div class="col-span-4">
+          <a class="text-4xl font-bold flex gap-2" href="#">
+            <img class="w-12 h-10 pe-2" src="img/faveicon.png" alt="" />
+            TransitFlow
+          </a>
+        </div>
+        <div class="col-span-8 ml-auto">
+          <div class="flex gap-20">
+            <div class="flex border p-2">
+              <div>
+                <i
+                  class="fa-solid fa-phone bg-yellow px-2 py-2 me-2 hover:text-white transition-all duration-300"
+                ></i>
+              </div>
+              <a class="hover:text-yellow" href="#">125-3654-7895</a>
+            </div>
+            <div class="flex border p-2">
+              <div>
+                <i
+                  class="fa-solid fa-envelope bg-yellow px-2 py-2 me-2 hover:text-white transition-all duration-300"
+                ></i>
+              </div>
+              <a class="hover:text-yellow" href="#">yourmail@gmail.com</a>
+            </div>
+            <div class="flex border p-2">
+              <div>
+                <i
+                  class="fa-solid fa-location-dot bg-[#ffc107] px-2 py-2 me-2 hover:text-white transition-all duration-300"
+                ></i>
+              </div>
+              <a class="hover:text-[#ffc107]" href="#">125 Main City,USA</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- top head end -->
+
+    <!-- navbar start -->
+    <div class="bg-white">
+      <div class="navbar nav container mx-auto xl:px-32">
+        <div
+          class="navbar-start w-full 2xl:w-1/2 justify-between 2xl:justify-start flex xl:hidden"
+        >
+          <div class="dropdown z-50">
+            <div tabindex="0" role="button" class="btn btn-ghost 2xl:hidden">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h8m-8 6h16"
+                />
+              </svg>
+            </div>
+            <ul
+              tabindex="0"
+              class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-80"
+            >
+              <li>
+                <details data-dropdown="business">
+                  <summary
+                    class="font-semibold hover:bg-transparent hover:text-[#FF9A3F]"
+                  >
+                    Home
+                  </summary>
+                  <ul class="p-2 w-72 z-50">
+                    <li class="font-semibold">
+                      <a
+                        class="hover:bg-transparent hover:text-[#FF9A3F]"
+                        href="index.html"
+                        >Home Page 01</a
+                      >
+                    </li>
+                    <li class="font-semibold">
+                      <a
+                        class="hover:bg-transparent hover:text-[#FF9A3F]"
+                        href="index2.html"
+                        >home Page 02</a
+                      >
+                    </li>
+                    <li class="font-semibold">
+                      <a
+                        class="hover:bg-transparent hover:text-[#FF9A3F]"
+                        href="index3.html"
+                        >Home Page 03</a
+                      >
+                    </li>
+                  </ul>
+                </details>
+              </li>
+              <li>
+                <details data-dropdown="business">
+                  <summary
+                    class="font-semibold hover:bg-transparent hover:text-[#FF9A3F]"
+                  >
+                    Pages
+                  </summary>
+                  <ul class="p-2 w-72 z-50">
+                    <li class="font-semibold">
+                      <a
+                        class="hover:bg-transparent hover:text-[#FF9A3F]"
+                        href="about.html"
+                        >About</a
+                      >
+                    </li>
+                    <li class="font-semibold">
+                      <a
+                        class="hover:bg-transparent hover:text-[#FF9A3F]"
+                        href="project-grid.html"
+                        >Project</a
+                      >
+                    </li>
+                    <li class="font-semibold">
+                      <a
+                        class="hover:bg-transparent hover:text-[#FF9A3F]"
+                        href="team.html"
+                        >Team</a
+                      >
+                    </li>
+                    <li class="font-semibold">
+                      <a
+                        class="hover:bg-transparent hover:text-[#FF9A3F]"
+                        href="team-details.html"
+                        >Team Details</a
+                      >
+                    </li>
+                    <li class="font-semibold">
+                      <a
+                        class="hover:bg-transparent hover:text-[#FF9A3F]"
+                        href="testimonials.html"
+                        >Testimonial</a
+                      >
+                    </li>
+                    <li class="font-semibold">
+                      <a
+                        class="hover:bg-transparent hover:text-[#FF9A3F]"
+                        href="faqs.html"
+                        >FAQst</a
+                      >
+                    </li>
+                    <li class="font-semibold">
+                      <a
+                        class="hover:bg-transparent hover:text-[#FF9A3F]"
+                        href="pricing.html"
+                        >Pricing</a
+                      >
+                    </li>
+                  </ul>
+                </details>
+              </li>
+              <li>
+                <details data-dropdown="personal">
+                  <summary
+                    class="font-semibold hover:bg-transparent hover:text-[#FF9A3F]"
+                  >
+                    Service
+                  </summary>
+                  <ul class="p-2 w-72 z-10">
+                    <li class="font-semibold">
+                      <a
+                        class="hover:bg-transparent hover:text-[#FF9A3F]"
+                        href="service.html"
+                        >Service</a
+                      >
+                    </li>
+                    <li class="font-semibold">
+                      <a
+                        class="hover:bg-transparent hover:text-[#FF9A3F]"
+                        href="service-details.html"
+                        >Service Details</a
+                      >
+                    </li>
+                  </ul>
+                </details>
+              </li>
+
+              <li>
+                <details data-dropdown="about">
+                  <summary
+                    class="font-semibold hover:bg-transparent hover:text-[#FF9A3F]"
+                  >
+                    News
+                  </summary>
+                  <ul class="p-2 w-72 z-10">
+                    <li class="font-semibold">
+                      <a
+                        class="hover:bg-transparent hover:text-[#FF9A3F]"
+                        href="news.html"
+                        >News
+                      </a>
+                    </li>
+                    <li class="font-semibold">
+                      <a
+                        class="hover:bg-transparent hover:text-[#FF9A3F]"
+                        href="news-details.html"
+                        >News Details</a
+                      >
+                    </li>
+                  </ul>
+                </details>
+              </li>
+              <li class="font-semibold">
+                <a
+                  class="hover:bg-transparent hover:text-[#FF9A3F]"
+                  href="product.html"
+                  >Product</a
+                >
+              </li>
+              <li class="font-semibold">
+                <a
+                  class="hover:bg-transparent hover:text-[#FF9A3F]"
+                  href="contact.html"
+                  >Contact</a
+                >
+              </li>
+              <li><a class="font-semibold" href="#">Client Login</a></li>
+            </ul>
+          </div>
+
+          <a href="index.html" class="text-4xl font-bold gap-2 nav-logo">
+            <img
+              src="img/faveicon.png"
+              alt=""
+              class="img-flud w-10 h-8 pe-2 mt-2"
+            />
+            TransitFlow
+          </a>
+        </div>
+        <div class="navbar-center hidden 2xl:flex w-full justify-between">
+          <ul class="menu menu-horizontal px-1">
+            <li>
+              <details data-dropdown="business">
+                <summary
+                  class="font-semibold hover:bg-transparent hover:text-[#FF9A3F]"
+                >
+                  Home
+                </summary>
+                <ul class="p-2 w-72 z-50">
+                  <li class="font-semibold">
+                    <a
+                      class="hover:bg-transparent hover:text-[#FF9A3F]"
+                      href="index.html"
+                      >Home Page 01</a
+                    >
+                  </li>
+                  <li class="font-semibold">
+                    <a
+                      class="hover:bg-transparent hover:text-[#FF9A3F]"
+                      href="index2.html"
+                      >home Page 02</a
+                    >
+                  </li>
+                  <li class="font-semibold">
+                    <a
+                      class="hover:bg-transparent hover:text-[#FF9A3F]"
+                      href="index3.html"
+                      >Home Page 03</a
+                    >
+                  </li>
+                </ul>
+              </details>
+            </li>
+            <li>
+              <details data-dropdown="business">
+                <summary
+                  class="font-semibold hover:bg-transparent hover:text-[#FF9A3F]"
+                >
+                  Pages
+                </summary>
+                <ul class="p-2 w-72 z-50">
+                  <li class="font-semibold">
+                    <a
+                      class="hover:bg-transparent hover:text-[#FF9A3F]"
+                      href="about.html"
+                      >About</a
+                    >
+                  </li>
+                  <li class="font-semibold">
+                    <a
+                      class="hover:bg-transparent hover:text-[#FF9A3F]"
+                      href="project-grid.html"
+                      >Project</a
+                    >
+                  </li>
+                  <li class="font-semibold">
+                    <a
+                      class="hover:bg-transparent hover:text-[#FF9A3F]"
+                      href="team.html"
+                      >Team</a
+                    >
+                  </li>
+                  <li class="font-semibold">
+                    <a
+                      class="hover:bg-transparent hover:text-[#FF9A3F]"
+                      href="team-details.html"
+                      >Team Details</a
+                    >
+                  </li>
+                  <li class="font-semibold">
+                    <a
+                      class="hover:bg-transparent hover:text-[#FF9A3F]"
+                      href="testimonials.html"
+                      >Testimonial</a
+                    >
+                  </li>
+                  <li class="font-semibold">
+                    <a
+                      class="hover:bg-transparent hover:text-[#FF9A3F]"
+                      href="faqs.html"
+                      >FAQst</a
+                    >
+                  </li>
+                  <li class="font-semibold">
+                    <a
+                      class="hover:bg-transparent hover:text-[#FF9A3F]"
+                      href="pricing.html"
+                      >Pricing</a
+                    >
+                  </li>
+                </ul>
+              </details>
+            </li>
+            <li>
+              <details data-dropdown="personal">
+                <summary
+                  class="font-semibold hover:bg-transparent hover:text-[#FF9A3F]"
+                >
+                  Service
+                </summary>
+                <ul class="p-2 w-72 z-10">
+                  <li class="font-semibold">
+                    <a
+                      class="hover:bg-transparent hover:text-[#FF9A3F]"
+                      href="service.html"
+                      >Service</a
+                    >
+                  </li>
+                  <li class="font-semibold">
+                    <a
+                      class="hover:bg-transparent hover:text-[#FF9A3F]"
+                      href="service-details.html"
+                      >Service Details</a
+                    >
+                  </li>
+                </ul>
+              </details>
+            </li>
+
+            <li>
+              <details data-dropdown="about">
+                <summary
+                  class="font-semibold hover:bg-transparent hover:text-[#FF9A3F]"
+                >
+                  News
+                </summary>
+                <ul class="p-2 w-72 z-10">
+                  <li class="font-semibold">
+                    <a
+                      class="hover:bg-transparent hover:text-[#FF9A3F]"
+                      href="news.html"
+                      >News
+                    </a>
+                  </li>
+                  <li class="font-semibold">
+                    <a
+                      class="hover:bg-transparent hover:text-[#FF9A3F]"
+                      href="news-details.html"
+                      >News Details</a
+                    >
+                  </li>
+                </ul>
+              </details>
+            </li>
+            <li class="font-semibold">
+              <a
+                class="hover:bg-transparent hover:text-[#FF9A3F]"
+                href="product.html"
+                >Product</a
+              >
+            </li>
+            <li class="font-semibold">
+              <a
+                class="hover:bg-transparent hover:text-[#FF9A3F]"
+                href="contact.html"
+                >Contact</a
+              >
+            </li>
+          </ul>
+          <div class=" ">
+            <a class="font-semibold" href="#">
+              <i class="fa-solid fa-plus text-[#ffc107] bg-black p-2 me-2"></i>
+              <span
+                class="hover:text-[#FF9A3F] hover:transition-all hover:duration-300 transition-all duration-300"
+                >Track Your Order</span
+              >
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- navbar end -->
+    <!-- banner area start -->
+    <div
+      class="bg-[#00000082] bg-blend-overlay bg-[url('../img/about1.jpg')] xl:h-[70vh] h-[100vh] bg-cover text-white"
+    >
+      <div class="container mx-auto">
+        <div class="text-center py-32">
+          <p class="text-6xl font-bold fira">Project Grid</p>
+          <div class="flex justify-center pt-3">
+            <a
+              class="text-yellow hover:text-white transition-all duration-300 font-semibold"
+              href="#"
+              >Home</a
+            >
+
+            <p class="font-semibold">
+              <i class="fa-solid fa-angle-right px-2"></i>Project Grid
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- banner area end -->
+
+    <!-- project area start -->
+    <div class="bg-light py-10">
+      <div class="container mx-auto py-10 my-10">
+        <div class="grid w-full xl:w-2/3 xl:px-40 px-5 text-center mx-auto">
+          <p class="font-bold text-yellow">RECENT PROJECTS</p>
+          <h2
+            class="text-3xl xl:text-5xl font-bold pt-5 pb-20 fira !leading-[1.3]"
+          >
+            Showcasing Our Latest Achievements and Innovations
+          </h2>
+        </div>
+        <div class="swiper swiperproject">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <a href="">
+                <div class="overflow-hidden relative group">
+                  <img
+                    class="hover:scale-[1.1] transition-all duration-500"
+                    src="img/project5.jpg"
+                    alt=""
+                  />
+                  <div
+                    class="absolute left-0 right-0 top-40 text-center opacity-0 group-hover:opacity-100 z-50 duration-500 delay-100"
+                  >
+                    <i
+                      class="fa-solid fa-right-long bg-yellow px-8 py-8 rounded-full"
+                    ></i>
+                  </div>
+                </div>
+              </a>
+              <div class="bg-white px-7 py-4">
+                <a
+                  class="fira text-xl font-bold hover:text-yellow transition-all duration-300"
+                  href="#"
+                  >Stocked Warehouse Inventory Reduces Your Costs!
+                </a>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <a href="">
+                <div class="overflow-hidden relative group">
+                  <img
+                    class="hover:scale-[1.1] transition-all duration-500"
+                    src="img/project1.jpg"
+                    alt=""
+                  />
+                  <div
+                    class="absolute left-0 right-0 top-40 text-center opacity-0 group-hover:opacity-100 z-50 duration-500 delay-100"
+                  >
+                    <i
+                      class="fa-solid fa-right-long bg-yellow px-8 py-8 rounded-full"
+                    ></i>
+                  </div>
+                </div>
+              </a>
+              <div class="bg-white px-7 py-4">
+                <a
+                  class="fira text-xl font-bold hover:text-yellow transition-all duration-300"
+                  href="#"
+                  >On-Hand Supplies to Lower Expenses!
+                </a>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <a href="">
+                <div class="overflow-hidden relative group">
+                  <img
+                    class="hover:scale-[1.1] transition-all duration-500"
+                    src="img/project4.jpg"
+                    alt=""
+                  />
+                  <div
+                    class="absolute left-0 right-0 top-40 text-center opacity-0 group-hover:opacity-100 z-50 duration-500 delay-100"
+                  >
+                    <i
+                      class="fa-solid fa-right-long bg-yellow px-8 py-8 rounded-full"
+                    ></i>
+                  </div>
+                </div>
+              </a>
+              <div class="bg-white px-7 py-4">
+                <a
+                  class="fira text-xl font-bold hover:text-yellow transition-all duration-300"
+                  href="#"
+                  >Available Inventory to Cut Your Spending!
+                </a>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <a href="">
+                <div class="overflow-hidden relative group">
+                  <img
+                    class="hover:scale-[1.1] transition-all duration-500"
+                    src="img/project2.jpg"
+                    alt=""
+                  />
+                  <div
+                    class="absolute left-0 right-0 top-40 text-center opacity-0 group-hover:opacity-100 z-50 duration-500 delay-100"
+                  >
+                    <i
+                      class="fa-solid fa-right-long bg-yellow px-8 py-8 rounded-full"
+                    ></i>
+                  </div>
+                </div>
+              </a>
+              <div class="bg-white px-7 py-4">
+                <a
+                  class="fira text-xl font-bold hover:text-yellow transition-all duration-300"
+                  href="#"
+                  >Ready Inventory to Decrease Your Spend!
+                </a>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <a href="">
+                <div class="overflow-hidden relative group">
+                  <img
+                    class="hover:scale-[1.1] transition-all duration-500"
+                    src="img/project3.jpg"
+                    alt=""
+                  />
+                  <div
+                    class="absolute left-0 right-0 top-40 text-center opacity-0 group-hover:opacity-100 z-50 duration-500 delay-100"
+                  >
+                    <i
+                      class="fa-solid fa-right-long bg-yellow px-8 py-8 rounded-full"
+                    ></i>
+                  </div>
+                </div>
+              </a>
+              <div class="bg-white px-7 py-4">
+                <a
+                  class="fira text-xl font-bold hover:text-yellow transition-all duration-300"
+                  href="#"
+                  >On-Site Inventory to Save <br />
+                  You Money!
+                </a>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <a href="">
+                <div class="overflow-hidden relative group">
+                  <img
+                    class="hover:scale-[1.1] transition-all duration-500"
+                    src="img/project7.jpg"
+                    alt=""
+                  />
+                  <div
+                    class="absolute left-0 right-0 top-40 text-center opacity-0 group-hover:opacity-100 z-50 duration-500 delay-100"
+                  >
+                    <i
+                      class="fa-solid fa-right-long bg-yellow px-8 py-8 rounded-full"
+                    ></i>
+                  </div>
+                </div>
+              </a>
+              <div class="bg-white px-7 py-4">
+                <a
+                  class="fira text-xl font-bold hover:text-yellow transition-all duration-300"
+                  href="#"
+                  >Warehouse Stock Lowers Your Budget!
+                </a>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <a href="">
+                <div class="overflow-hidden relative group">
+                  <img
+                    class="hover:scale-[1.1] transition-all duration-500"
+                    src="img/project6.jpg"
+                    alt=""
+                  />
+                  <div
+                    class="absolute left-0 right-0 top-40 text-center opacity-0 group-hover:opacity-100 z-50 duration-500 delay-100"
+                  >
+                    <i
+                      class="fa-solid fa-right-long bg-yellow px-8 py-8 rounded-full"
+                    ></i>
+                  </div>
+                </div>
+              </a>
+              <div class="bg-white px-7 py-4">
+                <a
+                  class="fira text-xl font-bold hover:text-yellow transition-all duration-300"
+                  href="#"
+                  >Stored Goods Minimize Your Expenditure!
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- project area end -->
+
+    <!-- footer area start -->
+    <div class="bg-[#202020]">
+      <div class="container px-5 xl:px-40 mx-auto py-10">
+        <div class="grid xl:grid-cols-2 md:grid-cols-2 grid-cols-1">
+          <div class="text-white">
+            <a
+              class="xl:mr-14 mr-5 hover:text-yellow transition-all duration-300"
+              href="#"
+              >Resources</a
+            >
+            <a
+              class="xl:mr-14 mr-5 hover:text-yellow transition-all duration-300"
+              href="#"
+              >Documentation</a
+            >
+            <a
+              class="xl:mr-14 mr-5 hover:text-yellow transition-all duration-300"
+              href="#"
+              >Developers</a
+            >
+            <a class="hover:text-yellow transition-all duration-300" href="#"
+              >Portfolio</a
+            >
+          </div>
+          <div class="xl:text-end mt-5 md:mt-0">
+            <a
+              class="text-yellow hover:text-white transition-all duration-300 me-5"
+              href="#"
+              ><i class="fa-brands fa-facebook"></i
+            ></a>
+            <a
+              class="text-yellow hover:text-white transition-all duration-300 me-5"
+              href="#"
+              ><i class="fa-brands fa-youtube"></i
+            ></a>
+
+            <a
+              class="text-yellow hover:text-white transition-all duration-300 me-5"
+              href="#"
+              ><i class="fa-brands fa-x-twitter"></i
+            ></a>
+
+            <a
+              class="text-yellow hover:text-white transition-all duration-300 me-5"
+              href="#"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="bg-black text-white">
+      <div class="container xl:px-40 px-5 mx-auto py-20">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-20">
+          <div class="md:col-span-1 lg:col-span-4">
+            <a class="text-4xl font-bold flex gap-2" href="#">
+              <img class="w-12 h-10 pe-2" src="img/faveicon.png" alt="" />
+              TransitFlow
+            </a>
+            <p class="pt-5 text-gray kumbh">
+              TransitFlow is dedicated to revolutionizing urban mobility by
+              offering smart, sustainable, and efficient transit solutions. Our
+              mission is to enhance the way people navigate cities.
+            </p>
+          </div>
+          <div class="md:col-span-1 lg:col-span-2">
+            <p class="text-xl font-bold pb-7 fira">Our Company</p>
+            <ul>
+              <li class="pb-2">
+                <a
+                  class="text-gray hover:text-yellow transition-all duration-300 hover:underline"
+                  href="#"
+                  >Home</a
+                >
+              </li>
+              <li class="pb-2">
+                <a
+                  class="text-gray hover:text-yellow transition-all duration-300 hover:underline"
+                  href="#"
+                  >About</a
+                >
+              </li>
+              <li class="pb-2">
+                <a
+                  class="text-gray hover:text-yellow transition-all duration-300 hover:underline"
+                  href="#"
+                  >Team</a
+                >
+              </li>
+              <li class="">
+                <a
+                  class="text-gray hover:text-yellow transition-all duration-300 hover:underline"
+                  href="#"
+                  >Service</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="md:col-span-1 lg:col-span-3">
+            <p class="text-xl font-bold pb-7 fira">Contact Us</p>
+            <ul>
+              <li class="pb-2">
+                <a
+                  class="text-gray hover:text-yellow transition-all duration-300 hover:underline"
+                  href="#"
+                  >Email:Yourmail@.com</a
+                >
+              </li>
+              <li class="pb-2">
+                <a
+                  class="text-gray hover:text-yellow transition-all duration-300 hover:underline"
+                  href="#"
+                  >Phone:125-3654-7895</a
+                >
+              </li>
+              <li class="pb-2">
+                <a
+                  class="text-gray hover:text-yellow transition-all duration-300 hover:underline"
+                  href="#"
+                  >Telephone:1-125-425-4563</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="md:col-span-1 lg:col-span-3">
+            <p class="text-xl font-bold pb-7 fira">Our Address</p>
+            <p class="text-gray">125 Main City,USA</p>
+            <div class="pt-5">
+              <a
+                class="text-yellow underline font-semibold hover:text-white transition-all duration-300"
+                href="#"
+                >View all location</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="border-b border-gray pt-20"></div>
+        <div class="grid grid-cols-1 lg:grid-cols-2 pt-10">
+          <div>
+            <p>Copyright © 2024 TransitFlow. All Rights Reserved.</p>
+          </div>
+          <div class="g:text-end mt-5 pt-5 lg:mt-[-20px]">
+            <a
+              class="hover:text-yellow transition-all duration-300 mr-8"
+              href="#"
+              >Terms & Conditions</a
+            >
+            <a class="hover:text-yellow transition-all duration-300" href="#"
+              >Terms & Conditions</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- footer area end -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
