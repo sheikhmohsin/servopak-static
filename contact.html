@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ServoPak | Freight Solutions HTML Template</title>
-    <link rel="shortcut icon" href="img/faveicon.png" type="image/x-icon" />
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
     <link
       href="https://cdn.jsdelivr.net/npm/daisyui@4.10.5/dist/full.min.css"
       rel="stylesheet"
@@ -33,50 +33,12 @@
     <link rel="stylesheet" href="src/style.css" />
   </head>
   <body>
-    <!-- top head start -->
-    <div class="container mx-auto xl:px-32 py-8 bg-hasan hidden 2xl:block">
-      <div class="grid grid-cols-12">
-        <div class="col-span-4">
-          <a class="text-4xl font-bold flex gap-2" href="#">
-            <img class="w-12 h-10 pe-2" src="img/faveicon.png" alt="" />
-            ServoPak
-          </a>
-        </div>
-        <div class="col-span-8 ml-auto">
-          <div class="flex gap-20">
-            <div class="flex border p-2">
-              <div>
-                <i
-                  class="fa-solid fa-phone bg-yellow px-2 py-2 me-2 hover:text-white transition-all duration-300"
-                ></i>
-              </div>
-              <a class="hover:text-yellow" href="#">125-3654-7895</a>
-            </div>
-            <div class="flex border p-2">
-              <div>
-                <i
-                  class="fa-solid fa-envelope bg-yellow px-2 py-2 me-2 hover:text-white transition-all duration-300"
-                ></i>
-              </div>
-              <a class="hover:text-yellow" href="#">yourmail@gmail.com</a>
-            </div>
-            <div class="flex border p-2">
-              <div>
-                <i
-                  class="fa-solid fa-location-dot bg-[#ffc107] px-2 py-2 me-2 hover:text-white transition-all duration-300"
-                ></i>
-              </div>
-              <a class="hover:text-[#ffc107]" href="#">125 Main City,USA</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- top head end -->
-
     <!-- navbar start -->
-    <div class="bg-white">
-      <div class="navbar nav container mx-auto xl:px-32">
+    <div style="background-color: #1d232a">
+      <div
+        class="navbar nav container mx-auto xl:px-32 shadow-lg shadow-inherit"
+        style="background-color: #1d232af0"
+      >
         <div
           class="navbar-start w-full 2xl:w-1/2 justify-between 2xl:justify-start flex xl:hidden"
         >
@@ -122,25 +84,23 @@
                   >Contact Us</a
                 >
               </li>
-              <li><a class="font-semibold" href="#">Client Login</a></li>
             </ul>
           </div>
 
           <a href="index.html" class="text-4xl font-bold gap-2 nav-logo">
-            <img
-              src="img/faveicon.png"
-              alt=""
-              class="img-flud w-10 h-8 pe-2 mt-2"
-            />
-            ServoPak
+            <img src="img/logo.png" alt="" class="img-flud w-60 pe-2 mt-1" />
           </a>
         </div>
         <div class="navbar-center hidden 2xl:flex w-full justify-between">
-          <ul class="menu menu-horizontal px-1">
+          <a class="text-4xl font-bold flex" href="/index.html">
+            <img class="w-80 pe-2" src="img/logo.png" alt="" />
+          </a>
+          <ul class="menu menu-horizontal px-1 items-center">
             <li class="font-semibold">
               <a
                 class="hover:bg-transparent hover:text-[#FF9A3F]"
                 href="index.html"
+                style="font-size: 16px"
                 >Home</a
               >
             </li>
@@ -148,24 +108,23 @@
             <li class="font-semibold">
               <a
                 class="hover:bg-transparent hover:text-[#FF9A3F]"
+                style="font-size: 16px"
                 href="service.html"
                 >Services</a
               >
             </li>
 
             <li class="font-semibold">
-              <a
-                class="hover:bg-transparent hover:text-[#FF9A3F]"
-                href="contact.html"
-                >Contact Us</a
-              >
+              <a class="font-semibold" href="contact.html">
+                <button
+                  class="btn-one"
+                  style="font-size: 14px; padding: 10px 24px"
+                >
+                  Connect With Us
+                </button>
+              </a>
             </li>
           </ul>
-          <div class=" ">
-            <a class="font-semibold" href="contact.html">
-              <button class="btn-one">Connect With Us</button>
-            </a>
-          </div>
         </div>
       </div>
     </div>
@@ -282,7 +241,7 @@
             ></i>
             <div class="ps-5">
               <p class="text-xl font-bold pb-3">Have any question?</p>
-              <a class="text-gray text-xl" href="#">Free 125-4589-9632</a>
+              <a class="text-gray text-xl" href="#">917-325-3600</a>
             </div>
           </div>
           <div class="flex pt-10">
@@ -291,7 +250,9 @@
             ></i>
             <div class="ps-5">
               <p class="text-xl font-bold pb-3">Write email</p>
-              <a class="text-gray text-xl" href="#">yourmail@.com</a>
+              <a class="text-gray text-xl" href="mailto:taimour@servopak.co"
+                >taimour@servopak.co</a
+              >
             </div>
           </div>
           <div class="flex pt-10">
@@ -300,7 +261,9 @@
             ></i>
             <div class="ps-5">
               <p class="text-xl font-bold pb-3">Visit anytime</p>
-              <a class="text-gray text-xl" href="#">125 Main City,USA</a>
+              <a class="text-gray text-xl" href="#"
+                >Apt T1 6626 Ronald Rd MD Capitol Heights 20743</a
+              >
             </div>
           </div>
         </div>
@@ -310,7 +273,7 @@
     <!-- contact area end -->
     <div class="container mx-auto pt-10">
       <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d38523723.739169486!2d99.84146521222483!3d29.672575258934316!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ed5844f0bb6903%3A0x57ad3fed1bbae325!2sBihar%2C%20India!5e0!3m2!1sen!2sbd!4v1717515903235!5m2!1sen!2sbd"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3106.1849613470486!2d-76.89603284546763!3d38.87400987542251!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7bf1ec9298313%3A0x713f85cd8d735a82!2s6626%20Ronald%20Rd%20md%2C%20Capitol%20Heights%2C%20MD%2020743%2C%20USA!5e0!3m2!1sen!2s!4v1722029249158!5m2!1sen!2s"
         width="100%"
         height="550"
         style="border: 0"
@@ -325,9 +288,8 @@
       <div class="container xl:px-40 px-5 mx-auto py-20">
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-20">
           <div class="md:col-span-1 lg:col-span-4">
-            <a class="text-4xl font-bold flex gap-2" href="#">
-              <img class="w-12 h-10 pe-2" src="img/faveicon.png" alt="" />
-              ServoPak
+            <a class="text-4xl font-bold flex gap-2" href="/index.html">
+              <img class="w-60 pe-2" src="img/logo.png" alt="" />
             </a>
             <p class="pt-5 text-gray kumbh">
               ServoPak is dedicated to revolutionizing urban mobility by
@@ -341,29 +303,22 @@
               <li class="pb-2">
                 <a
                   class="text-gray hover:text-yellow transition-all duration-300 hover:underline"
-                  href="#"
+                  href="index.html"
                   >Home</a
                 >
               </li>
               <li class="pb-2">
                 <a
                   class="text-gray hover:text-yellow transition-all duration-300 hover:underline"
-                  href="#"
-                  >About</a
-                >
-              </li>
-              <li class="pb-2">
-                <a
-                  class="text-gray hover:text-yellow transition-all duration-300 hover:underline"
-                  href="#"
-                  >Team</a
+                  href="service.html"
+                  >Services</a
                 >
               </li>
               <li class="">
                 <a
                   class="text-gray hover:text-yellow transition-all duration-300 hover:underline"
-                  href="#"
-                  >Service</a
+                  href="contact.html"
+                  >Contact Us</a
                 >
               </li>
             </ul>
@@ -374,35 +329,47 @@
               <li class="pb-2">
                 <a
                   class="text-gray hover:text-yellow transition-all duration-300 hover:underline"
-                  href="#"
-                  >Email:Yourmail@.com</a
+                  href="mailto:taimour@servopak.co"
+                  >Email:taimour@servopak.co</a
                 >
               </li>
               <li class="pb-2">
                 <a
                   class="text-gray hover:text-yellow transition-all duration-300 hover:underline"
                   href="#"
-                  >Phone:125-3654-7895</a
-                >
-              </li>
-              <li class="pb-2">
-                <a
-                  class="text-gray hover:text-yellow transition-all duration-300 hover:underline"
-                  href="#"
-                  >Telephone:1-125-425-4563</a
+                  >Phone:917-325-3600</a
                 >
               </li>
             </ul>
           </div>
           <div class="md:col-span-1 lg:col-span-3">
             <p class="text-xl font-bold pb-7 fira">Our Address</p>
-            <p class="text-gray">125 Main City,USA</p>
-            <div class="pt-5">
+            <p class="text-gray">
+              Apt T1 6626 Ronald Rd MD Capitol Heights 20743
+            </p>
+            <div class="mt-4">
               <a
-                class="text-yellow underline font-semibold hover:text-white transition-all duration-300"
+                class="text-yellow hover:text-white transition-all duration-300 me-5"
                 href="#"
-                >View all location</a
-              >
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
+              <a
+                class="text-yellow hover:text-white transition-all duration-300 me-5"
+                href="#"
+                ><i class="fa-brands fa-youtube"></i
+              ></a>
+
+              <a
+                class="text-yellow hover:text-white transition-all duration-300 me-5"
+                href="#"
+                ><i class="fa-brands fa-x-twitter"></i
+              ></a>
+
+              <a
+                class="text-yellow hover:text-white transition-all duration-300 me-5"
+                href="#"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
             </div>
           </div>
         </div>
